@@ -1,6 +1,7 @@
 # Jogo da Cobrinha
 <img src="game.gif" alt="Jogo Cobrinha">
------
+
+--- 
 
 Um clássico jogo da cobrinha desenvolvido com **HTML, CSS e JavaScript** para uma experiência visual e interativa no navegador. Desvie do próprio corpo da cobrinha enquanto tenta comer o máximo de maçãs possível para crescer e fazer sua pontuação disparar\!
 
