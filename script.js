@@ -1,4 +1,5 @@
 let canvas = document.getElementById("snake");
+let pontos = document.getElementById("pontos");
 let context = canvas.getContext("2d");
 let box = 32;
 let snake = [];
@@ -22,6 +23,7 @@ function criarCobrinha (){
         context.fillStyle = "#34CE34";
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
+    pontos.textContent = snake.length-1;
 }
 
 function drawFood (){
